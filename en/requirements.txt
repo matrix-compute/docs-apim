@@ -1,7 +1,7 @@
-jinja2==3.1.2
+jinja2==3.1.4
 mkdocs==1.4.2
-Pygments==2.14.0
-pymdown-extensions==9.10
+Pygments==2.15.0
+pymdown-extensions==10.0
 mkdocs-minify-plugin==0.6.2
 mkdocs-markdownextradata-plugin==0.2.5
 mkdocs-redirects==1.2.0
@@ -10,3 +10,7 @@ mkdocs-material==9.1.2
 markdown-include==0.8.1
 markdown==3.2.1
 mkdocs-exclude==1.0.2
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
